@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  background: linear-gradient(135deg, rgb(191, 11, 41) 0%, #fad0c4 100%);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -29,7 +29,7 @@ h1 {
   padding: 20px;
   border-radius: 15px;
   margin: 20px 0;
-  color: #fff;
+  color: #292525;
 }
 
 #quoteText {
@@ -54,19 +54,19 @@ button {
 }
 
 #newQuoteBtn {
-  background: #ff6b6b;
+  background: green;
   color: white;
 }
 
 #newQuoteBtn:hover {
-  background: #ff4757;
+  background: #ae6b71;
 }
 
 #copyBtn {
-  background: #1dd1a1;
+  background: #7c0051;
   color: white;
 }
 
 #copyBtn:hover {
-  background: #10ac84;
+  background: pink;
 }
